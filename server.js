@@ -1,7 +1,7 @@
 const express   = require("express");
 const cors      = require("cors");
 const fetch     = require("node-fetch");
-const { chromium } = require("playwright");
+const { chromium } = require("playwright-chromium");
 
 const DASHBOARD_URL = "https://www.gridstatus.io/dashboards/ercot-4cp-monitor-june?ref=blog.gridstatus.io";
 const API_FRAGMENT  = "ercot_estimated_coincident_peak_load/query";
